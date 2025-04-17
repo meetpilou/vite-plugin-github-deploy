@@ -1,0 +1,26 @@
+{
+  "name": "vite-plugin-github-deploy",
+  "version": "1.0.0",
+  "description": "Vite plugin to automate deployment to GitHub using Git and optional split/public repositories.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "prepare": "echo 'vite-plugin-github-deploy is ready to use.'"
+  },
+  "keywords": [
+    "vite",
+    "plugin",
+    "github",
+    "deployment",
+    "git",
+    "kobono"
+  ],
+  "author": "Pierre Lovenfosse <hello@meetpilou.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^20.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
