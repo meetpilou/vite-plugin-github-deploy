@@ -36,7 +36,7 @@ Each mode fits a different use case:
 ## 📦 Installation
 
 ```bash
-npm install --save-dev @kobono-studio/vite-plugin-github-deploy
+npm install --save-dev @kobonostudio/vite-plugin-github-deploy
 ```
 
 ---
@@ -69,7 +69,7 @@ export default {
 
 ```js
 import { defineConfig } from 'vite'
-import githubDeployPlugin from '@kobono-studio/vite-plugin-github-deploy'
+import githubDeployPlugin from '@kobonostudio/vite-plugin-github-deploy'
 
 export default defineConfig({
   plugins: [githubDeployPlugin()],
