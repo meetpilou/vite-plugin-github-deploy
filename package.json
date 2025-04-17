@@ -1,5 +1,5 @@
 {
-  "name": "vite-plugin-github-deploy",
+  "name": "@kobonostudio/vite-plugin-github-deploy",
   "version": "1.0.0",
   "description": "Vite plugin to automate deployment to GitHub using Git and optional split/public repositories.",
   "main": "index.js",
